@@ -16,7 +16,7 @@ p = zeros(m, 1);
 %
 % want to apply a simple function on the entire array so I do not have to iterate
 
-p = (sigmoid(X*theta)>=0.5)
+                                       p = (sigmoid(X*theta)>=0.5);
 
 
 % =========================================================================
